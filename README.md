@@ -1,5 +1,5 @@
 # [Erlang/OTP](https://repl.it/@robinrpr/erlang-otp)
-Node.js Rebar3 CLI
+Node.js Erlang/OTP CLI
 
 1. [What is Erlang/OTP?](https://github.com/erlangjs/erlang-otp#what-is-erlang-otp)
 2. [Getting Started](https://github.com/erlangjs/erlang-otp#getting-started)
