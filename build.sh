@@ -1,12 +1,16 @@
 #!/bin/bash
 set -e
-REBAR="rebar3"
-cd $REBAR
+OTP="otp"
+cd $OTP
 
-./bootstrap
-./rebar3 local install
+# TODO: brew install autoconf automake libtool (only: macos)
 
-chmod +x rebar3
-# gzip rebar3
+./otp_build autoconf
+./configure
+make
+make install
 
-echo -e "\n📦✨ Successfully build Rebar3! http://www.rebar3.org/"
+chmod +x erlang
+# gzip erlang
+
+echo -e "\n📦✨ Successfully build Erlang/OTP! http://www.erlang.org/"
