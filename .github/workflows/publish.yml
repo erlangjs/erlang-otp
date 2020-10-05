@@ -43,7 +43,7 @@ jobs:
           
       - name: Install Packages
         run: |
-          npm install
+          npm install --ignore-scripts
           git add package*.json
 
       - name: Bump Version

@@ -1,17 +1,17 @@
-# [Rebar3](https://repl.it/@robinrpr/rebar3)
+# [Erlang/OTP](https://repl.it/@robinrpr/erlang-otp)
 Node.js Rebar3 CLI
 
-1. [What is Rebar3?](https://github.com/erlangjs/rebar3#what-is-rebar3)
-2. [Getting Started](https://github.com/erlangjs/rebar3#getting-started)
-3. [Demos](https://github.com/erlangjs/rebar3#demos)
+1. [What is Rebar3?](https://github.com/erlangjs/erlang-otp#what-is-rebar3)
+2. [Getting Started](https://github.com/erlangjs/erlang-otp#getting-started)
+3. [Demos](https://github.com/erlangjs/erlang-otp3#demos)
 
 ## What is Rebar3?
-Read full Documentation here [erlang/rebar3](https://github.com/erlang/rebar3)
+Read full Documentation here [erlang/otp](https://github.com/erlang/otp)
 
 ## Getting Started
 
 ```bash
-npm i rebar3 --save-dev
+npm i erlang-otp --save-dev
 ```
 
 In your `package.json` (Example):
@@ -22,8 +22,8 @@ In your `package.json` (Example):
   "description": "Hello World!",
   "main": "index.js",
   "scripts": {
-    "rebar3": "rebar3", /* Optional */
-    "example": "rebar3 --version"
+    "erlang": "erlang", /* Optional */
+    "example": "erlang --version"
   },
   "author": "see AUTHORS",
   "license": "ISC",
@@ -37,15 +37,15 @@ In your `package.json` (Example):
 ```shell
 npm run example
 
-# Output: rebar X.X.X on Erlang/OTP XX Erts XX.X
+# Output: Erlang/OTP XX Erts XX.X
 ```
 
 #### Or use the (optional) link
 ```shell
-npm run rebar3 -- --version
+npm run erlang -- --version
 
-# Output: rebar X.X.X on Erlang/OTP XX Erts XX.X
+# Output: Erlang/OTP XX Erts XX.X
 ```
 
 ## Demos
-[Open Example Project on Repl.it](https://repl.it/@robinrpr/rebar3-example)
+[Open Example Project on Repl.it](https://repl.it/@robinrpr/erlang-otp-example)
