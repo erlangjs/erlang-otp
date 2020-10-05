@@ -1,11 +1,11 @@
 # [Erlang/OTP](https://repl.it/@robinrpr/erlang-otp)
 Node.js Rebar3 CLI
 
-1. [What is Rebar3?](https://github.com/erlangjs/erlang-otp#what-is-rebar3)
+1. [What is Erlang/OTP?](https://github.com/erlangjs/erlang-otp#what-is-erlang-otp)
 2. [Getting Started](https://github.com/erlangjs/erlang-otp#getting-started)
 3. [Demos](https://github.com/erlangjs/erlang-otp3#demos)
 
-## What is Rebar3?
+## What is Erlang/OTP?
 Read full Documentation here [erlang/otp](https://github.com/erlang/otp)
 
 ## Getting Started
