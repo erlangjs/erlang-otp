@@ -22,7 +22,15 @@ In your `package.json` (Example):
   "description": "Hello World!",
   "main": "index.js",
   "scripts": {
-    "erlang": "erlang", /* Optional */
+    "cerl": "bin/cerl", /* Optional */
+    "ct_run": "bin/ct_run", /* Optional */
+    "dialyzer": "bin/dialyzer", /* Optional */
+    "erl": "bin/erl", /* Optional */
+    "erl_call": "bin/erl_call", /* Optional */
+    "erlc": "bin/erlc", /* Optional */
+    "escript": "bin/escript", /* Optional */
+    "typer": "bin/typer", /* Optional */
+    "example": "erl --version", /* Optional */
     "example": "erlang --version"
   },
   "author": "see AUTHORS",
