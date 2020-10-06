@@ -1,14 +1,14 @@
 #!/bin/bash
 set -e
+export LANG=C   # Assuming bash/sh
 OTP="otp"
 cd $OTP
 
 # TODO: brew install autoconf automake libtool (only: macos)
 
 ./otp_build autoconf
-./configure
+./configure --prefix=/opt/erlang/%OTP-VSN%
 make
-make install
 
 chmod +x erlang
 # gzip erlang
