@@ -4,10 +4,10 @@ const shell = require("shelljs");
 const argv = process.argv;
 
 const args = argv.slice(2).join(' ');
-const path = `${__dirname}/../rebar3`;
-const binary = 'rebar3';
+const path = `${__dirname}/../otp`;
+const binary = 'erlang';
 
 if (shell.exec(`${path}/${binary} ${args}`).code !== 0) {
-  shell.echo(`Error: Rebar3 Command "${binary} ${args}" Failed`);
+  shell.echo(`Error: Erlang Command "${binary} ${args}" Failed`);
   process.exit(1);
 }
