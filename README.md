@@ -30,13 +30,12 @@ In your `package.json` (Example):
     "erlc": "bin/erlc", /* Optional */
     "escript": "bin/escript", /* Optional */
     "typer": "bin/typer", /* Optional */
-    "example": "erl --version", /* Optional */
-    "example": "erlang --version"
+    "example": "erl --version"
   },
   "author": "see AUTHORS",
   "license": "ISC",
   "dependencies": {
-    ...
+    "erlang-otp": "*"
   }
 }
 ```
