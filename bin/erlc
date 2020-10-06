@@ -1,0 +1,13 @@
+#! /usr/bin/env node
+
+const shell = require("shelljs");
+const argv = process.argv;
+
+const args = argv.slice(2).join(' ');
+const path = `${__dirname}/../otp/bin`;
+const binary = 'erlc';
+
+if (shell.exec(`${path}/${binary} ${args}`).code !== 0) {
+  shell.echo(`Error: Erlc Command "${binary} ${args}" Failed`);
+  process.exit(1);
+}

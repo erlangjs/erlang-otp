@@ -4,6 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cerl": "bin/cerl",
+    "ct_run": "bin/ct_run",
+    "dialyzer": "bin/dialyzer",
+    "erl": "bin/erl",
+    "erl_call": "bin/erl_call",
+    "erlc": "bin/erlc",
+    "escript": "bin/escript",
+    "typer": "bin/typer",
     "postinstall": "npm run build && (npm run test || true)",
     "build": "./build.sh",
     "version": "echo $npm_package_version",
@@ -14,7 +22,14 @@
     "node": ">=12.0.0"
   },
   "bin": {
-    "erlang": "bin/erlang"
+    "cerl": "bin/cerl",
+    "ct_run": "bin/ct_run",
+    "dialyzer": "bin/dialyzer",
+    "erl": "bin/erl",
+    "erl_call": "bin/erl_call",
+    "erlc": "bin/erlc",
+    "escript": "bin/escript",
+    "typer": "bin/typer"
   },
   "author": "Robin Röper <rr@linux.com>",
   "license": "ISC",

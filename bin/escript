@@ -4,10 +4,10 @@ const shell = require("shelljs");
 const argv = process.argv;
 
 const args = argv.slice(2).join(' ');
-const path = `${__dirname}/../otp`;
-const binary = 'erlang';
+const path = `${__dirname}/../otp/bin`;
+const binary = 'escript';
 
 if (shell.exec(`${path}/${binary} ${args}`).code !== 0) {
-  shell.echo(`Error: Erlang Command "${binary} ${args}" Failed`);
+  shell.echo(`Error: Escript Command "${binary} ${args}" Failed`);
   process.exit(1);
 }
