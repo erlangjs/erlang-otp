@@ -10,7 +10,7 @@ cd $OTP
 ./configure --prefix=/opt/erlang/%OTP-VSN%
 make
 
-chmod +x cerl ct_run dialyzer erl erl_call erlc escript typer
+chmod +x bin/cerl bin/ct_run bin/dialyzer bin/erl bin/erl_call bin/erlc bin/escript bin/typer
 # gzip erlang
 
 echo -e "\n📦✨ Successfully build Erlang/OTP! http://www.erlang.org/"
